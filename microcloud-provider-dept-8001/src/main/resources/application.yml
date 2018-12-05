@@ -17,3 +17,11 @@ spring:
       initial-size: 5                               # 初始化提供的连接数
       max-total: 5                                  # 最大的连接数
       max-wait-millis: 200                          # 等待连接获取的最大超时时间
+#Security安全配置项
+security:
+  basic:
+    enabled: true   #启动SpringSecurity
+  user:
+    name: macfu   # 认证用户名
+    password: hello   # 认证密码
+    role: -USER       # 授权角色
