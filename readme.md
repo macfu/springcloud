@@ -3,10 +3,10 @@
 ## 项目结构
 ```
     |-springCloud
-    |   |-api公共资源模块
-    |   |-provider-dept-80001服务提供者
-    |   |-security基础的security认证模块
-    |-
+    |   |-api 公共资源模块
+    |   |-provider-dept-80001 服务提供者
+    |   |-security 基础的security认证模块
+    |   |-consumer rest服务消费端
     |-
     |-
 ```
