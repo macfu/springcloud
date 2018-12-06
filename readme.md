@@ -7,6 +7,6 @@
     |   |-provider-dept-80001 服务提供者
     |   |-security 基础的security认证模块
     |   |-consumer rest服务消费端
-    |-
+    |   |-eureka-7001 eureka服务
     |-
 ```
