@@ -2,6 +2,7 @@ package com.macfu;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @Author: liming
@@ -9,8 +10,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Description: 主程序启动类
  */
 @SpringBootApplication
-public class MainStart {
+@EnableEurekaClient
+public class Dept_8001_StartSpringCloudApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MainStart.class, args);
+        SpringApplication.run(Dept_8001_StartSpringCloudApplication.class, args);
     }
 }

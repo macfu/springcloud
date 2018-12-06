@@ -15,7 +15,7 @@ import javax.annotation.Resource;
  * @Date: 2018/12/3 15:22
  * @Description: 测试程序
  */
-@SpringBootTest(classes = MainStart.class)
+@SpringBootTest(classes = Dept_8001_StartSpringCloudApplication.class)
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 public class IDeptServiceTest {
