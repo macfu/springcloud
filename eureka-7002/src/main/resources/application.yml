@@ -1,0 +1,16 @@
+server:
+  port: 7002
+eureka:
+  instance:
+    hostname: eureka-7002.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://macfu:hello@127.0.0.1:7001/eureka
+security:
+  basic:
+    enabled: true
+  user:
+    name: macfu
+    password: hello
