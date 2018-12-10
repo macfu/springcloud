@@ -2,7 +2,15 @@ server:
   port: 7001
 eureka:
   instance:
-    hostname: 127.0.0.1
-#  client:
-#    register-with-eureka: false
-#    fetch-registry: false
+    hostname: eureka-7001.com
+  client:
+    register-with-eureka: false   # 当前的微服务不注册到eureka之中
+    fetch-registry: false       # 不通过eureka获取注册信息
+    service-url:
+      defaultZone: http://macfu:hello@127.0.0.1:7001/eureka
+security:
+  basic:
+    enabled: true   # 启动安全认证处理
+  user:
+    name: macfu   # 用户名
+    password: hello   # 密码
