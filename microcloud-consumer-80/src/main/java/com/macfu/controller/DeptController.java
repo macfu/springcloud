@@ -19,9 +19,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/consumer/dept")
 public class DeptController {
-    public static final String DEPT_GET_URL = "http://172.21.217.26:8001/dept/get/";
-    public static final String DEPT_LIST_URL = "http://localhost:8001/dept/list";
-    public static final String DEPT_ADD_URL = "http://172.21.217.26:8001/dept/add";
+    public static final String DEPT_GET_URL = "http://MICROCLOUD-PROVIDER-DEPT/dept/get/";
+    public static final String DEPT_LIST_URL = "http://MICROCLOUD-PROVIDER-DEPT/dept/list";
+    public static final String DEPT_ADD_URL = "http://MICROCLOUD-PROVIDER-DEPT/dept/add";
 
 //    @Resource
 //    private RestTemplate restTemplate;
